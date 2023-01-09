@@ -5,6 +5,8 @@ public class Tank {
     private int fuel;
 
     private final String tankNumber = "" + (tankCount + 1);
+    private final String tankModel = "T34";
+
 
     private static int tankCount = 0;
 
@@ -25,7 +27,6 @@ public class Tank {
     }
 
     void printPosition() {
-        String tankModel = "T34";
         System.out.println("The Tank " + tankModel + "-" + tankNumber + " is at " + coordinateX + ", " + coordinateY + " now.");
     }
 
