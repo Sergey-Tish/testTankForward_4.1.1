@@ -15,6 +15,7 @@ with fuel and different constructors
         Tank.printTankCreate();
         // At (20;30) fuel=200
         Tank customTank = new Tank(20, 30, 200);
+        Tank newCustomTank = new Tank(20, 30, 200);
         Tank.printTankCreate();
         System.out.println("Total tanks we have: " + justTank.getTankCount() + " pcs");
 
@@ -24,6 +25,10 @@ with fuel and different constructors
         anywareTank.printPosition();
         customTank.goForward(201);
         customTank.printPosition();
+
+        newCustomTank.goForward(201);
+        newCustomTank.printPosition();
+
         Tank tank = new Tank();
         tank.goForward(10);
         tank.printPosition();

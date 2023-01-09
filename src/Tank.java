@@ -2,7 +2,7 @@ public class Tank {
     private int coordinateX;
     private int coordinateY;
     private int route = 0; // 1 = up ; 2 = right; 3 = down ; 4 = left ;
-    private int fuel = 100;
+    private int fuel;
 
     private final String tankNumber = "" + (tankCount + 1);
     private final String tankModel = "T34";
@@ -91,17 +91,15 @@ public class Tank {
     }
 
     public Tank() {
-        ++tankCount;
+        this(0, 0);
     }
 
     public Tank(int coordinateX, int coordinateY) {
-        this();
-        this.coordinateX = coordinateX;
-        this.coordinateY = coordinateY;
+        this(coordinateX, coordinateY, 100);
     }
 
     public Tank(int coordinateX, int coordinateY, int fuel) {
-        this();
+        ++tankCount;
         this.coordinateX = coordinateX;
         this.coordinateY = coordinateY;
         this.fuel = fuel;
