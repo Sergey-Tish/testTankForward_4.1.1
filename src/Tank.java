@@ -5,7 +5,7 @@ public class Tank {
     private int fuel;
 
     private final String tankNumber = "" + (tankCount + 1);
-    private final String tankModel = "T34";  // vasche ne prosto
+    private final String tankModel = "T34";
 
     private static int tankCount = 0;
 
