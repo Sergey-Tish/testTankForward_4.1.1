@@ -6,9 +6,7 @@ public class Tank {
 
     private final String tankNumber = "" + (tankCount + 1);
     private final String tankModel = "T34";
-
     private static int tankCount = 0;
-
     void goForward(int pathWay) {
         if (route == 0) changeX(pathWay);
         if (route == 3) changeY(pathWay);
