@@ -39,6 +39,8 @@ with fuel and different constructors
         tank.goBackward(500);
         tank.printPosition();
 
+        System.out.println("prosto tak");
+
 /*
 This fragment of code has to output
 
