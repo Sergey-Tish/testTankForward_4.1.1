@@ -3,10 +3,10 @@ public class Tank {
     private int coordinateY;
     private int route = 0; // 1 = up ; 2 = right; 3 = down ; 4 = left ;
     private int fuel;
-
     private final String tankNumber = "" + (tankCount + 1);
-    private final String tankModel = "T34";
+    private final String tankModel = "T34"; // prosto tak
     private static int tankCount = 0;
+
     void goForward(int pathWay) {
         if (route == 0) changeX(pathWay);
         if (route == 3) changeY(pathWay);
