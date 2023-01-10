@@ -15,7 +15,6 @@ public class Tank {
         if (route == 1) changeY(-pathWay);
         routeCheck();
     }
-
     void goBackward(int pathWay) {
         if (route == 0) changeX(-pathWay);
         if (route == 3) changeY(-pathWay);
