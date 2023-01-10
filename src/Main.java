@@ -39,7 +39,7 @@ with fuel and different constructors
         tank.goBackward(500);
         tank.printPosition();
 
-        System.out.println("prosto tak");
+        System.out.println("vot prosto tak 1");
 
 /*
 This fragment of code has to output
