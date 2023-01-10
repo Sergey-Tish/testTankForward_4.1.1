@@ -7,7 +7,6 @@ public class Tank {
     private final String tankNumber = "" + (tankCount + 1);
     private final String tankModel = "T34";
 
-
     private static int tankCount = 0;
 
     void goForward(int pathWay) {
